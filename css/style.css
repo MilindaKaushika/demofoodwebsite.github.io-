@@ -7,3 +7,14 @@
     font-family: 'Poppins', sans-serif; 
     scroll-behavior: smooth;
 }
+
+:root{
+    --main-color: #ff9100;
+    --text-color: #302e29;
+    --second-color: #858585;
+    --bg-color: #fffbf6;
+    --big-font: 4.5rem;
+    --f2-font: 2.6rem;
+    --p-font: 1.1rem;
+    
+}
