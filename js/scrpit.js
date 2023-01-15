@@ -21,9 +21,10 @@ window.onscroll = () =>{
 
 // Effect on page
 const sr = ScrollReveal ({
-    distance: '600px',
+    reset: true,
+    distance: '60px',
     duration: 2500,
-    reset: true
+    delay: 400
 });
 
 sr.reveal('.home-text',{delay:200, origin:'left'});
