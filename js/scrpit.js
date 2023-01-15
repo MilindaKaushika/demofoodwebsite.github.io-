@@ -27,5 +27,5 @@ const sr = ScrollReveal ({
 });
 
 sr.reveal('.home-text',{delay:200, origin:'left'});
-// sr.reveal('.home-image',{delay:200, origin:'right'});
-sr.reveal('.container, .about, .menu, .contact',{delay:200, origin:'bottom'});
+sr.reveal('.home-image',{delay:200, origin:'right'});
+sr.reveal('.container, .about, .menu',{delay:200, origin:'bottom'});

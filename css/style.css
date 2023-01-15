@@ -19,6 +19,11 @@
     
 }
 
+body{
+    overflow-x: hidden;
+}
+
+
 /* Menu List */
 header{
     position: fixed;
@@ -115,7 +120,9 @@ section{
 }
 .home p{
     color: var(--bg-color);
-    margin-bottom: 20px
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 40px
 }
 .btn{
     display: inline-block;
@@ -133,17 +140,14 @@ section{
 .home-image img{
     width: 100%;
     height: auto;
-    animation: rotate-img 50s infinite linear;
+    animation: imgRotate 50s linear infinite;
+  
 }
-@keyframes rotate-img{
-    0%{
-        transform:  rotate(0deg);
-    }
-    100%{
-        transform:  rotate(360deg);
-    }
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
 }
-
 
 /* Container text */
 .main-text h2{
