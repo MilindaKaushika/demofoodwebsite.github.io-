@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link real="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Food Resturent</title>
 </head>
 
@@ -20,11 +20,11 @@
     <header>
         <a href="#" class="logo">
             Food
-            <span>court</span>
+            <span>Court</span>
         </a>
         <ul class="navbar">
             <li>
-                <a href="#home">Home</a>
+                <a href="#home" class="active">Home</a>
             </li>
             <li>
                 <a href="#about">About</a>
@@ -37,12 +37,74 @@
             </li>
         </ul>
         <div class="menu-list">
-            <a href="#"><i class='bx bx-search'></i></a>
-            <a href="#"><i class='bx bx-cart'></i></a>
+            <a href="#">
+                <i class='bx bx-search'></i>
+            </a>
+            <a href="#">
+                <i class='bx bx-cart'></i>
+            </a>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
-    
     </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Enjoy Our
+                <span>Delicious Meal
+                </span>
+            </h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+                lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <a href="" class="btn">Book a Table</a>
+        </div>
+        <div class="home-image">
+            <img src="images/hero-img.png">
+        </div>
+    </section>
+
+    <!-- Container Section -->
+    <section class="container">
+        <div class="main-text">
+            <h1>Breakfast</h1>
+            <p>9.00 am - 5.00 pm </p>
+        </div>
+
+        <div class="container-box">
+            <div class="c-main">
+                <div class="container-img">
+                    <img src="images/f1.png">
+                </div>
+                <div class="container-text">
+                    <p>Delicious Pizza</p>
+                </div>
+            </div>
+            <div class="c-main">
+                <div class="container-img">
+                    <img src="images/f2.png">
+                </div>
+                <div class="container-text">
+                    <p>Delicious Burger</p>
+                </div>
+            </div>
+            <div class="c-main">
+                <div class="container-img">
+                    <img src="images/f3.png">
+                </div>
+                <div class="container-text">
+                    <p>Delicious Pizza</p>
+                </div>
+            </div>
+            <div class="c-main">
+                <div class="container-img">
+                    <img src="images/f4.png">
+                </div>
+                <div class="container-text">
+                    <p>Delicious Pizza</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Costom js -->
     <script type="text/javascript" src="js/scrpit.js"></script>
